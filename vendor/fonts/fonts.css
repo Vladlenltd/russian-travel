@@ -6,3 +6,19 @@
     font-family: 'Inter';
     src: url(./Inter-Black.woff2);
 }
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Regular.woff);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Regular.woff2);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Bold.woff);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Bold.woff2);
+}

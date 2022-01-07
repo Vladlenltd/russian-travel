@@ -1,0 +1,11 @@
+.place__text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    color: #ffffff;
+    margin: 0;
+}
+.place__text:first-of-type {
+    padding-bottom: 26px;
+}

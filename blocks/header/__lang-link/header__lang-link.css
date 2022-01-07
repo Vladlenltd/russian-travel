@@ -7,5 +7,12 @@
 }
 .header__lang-link:first-of-type {
     text-decoration: underline;
-    color:#ffffff
+    color:#ffffff;
+    margin-right: 18px;
+}
+@media screen and (max-width: 321px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

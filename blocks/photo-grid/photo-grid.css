@@ -6,3 +6,28 @@
     gap: 16px;
     margin: 0 48px 92px;
 }
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 300px);
+        max-width: 928px;
+        min-height: 942px;
+        gap: 14px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 352px);
+        max-width: 720px;
+        min-height: 1664px;
+        margin: 0 24px 88px;
+        gap: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 288px);
+        gap: 12px;
+        margin: 0 16px 64px;
+    }
+    
+}

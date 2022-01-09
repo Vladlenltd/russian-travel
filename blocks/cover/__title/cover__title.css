@@ -6,3 +6,26 @@
     max-width: 560px;
     text-align: center;
 }
+/* @media screen and (max-width: 1279px) {
+    .cover__title {
+        max-width: 1024px;
+        margin: 0;
+        margin-bottom: 92px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        margin: 0;
+        margin-bottom: 88px;
+    }
+} */
+@media screen and (max-width: 767px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        /* margin: 0; */
+        /* margin-bottom: 64px; */
+    }
+}

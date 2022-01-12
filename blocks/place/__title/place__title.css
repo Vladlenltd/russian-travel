@@ -5,6 +5,7 @@
     font-weight: 900px;
     color: #ffff;
     margin: 0;
+    grid-area: title;
 }
 @media screen and (max-width: 1279px) {
     .place__title {

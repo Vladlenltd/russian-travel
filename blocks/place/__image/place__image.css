@@ -1,6 +1,7 @@
 .place__image {
     grid-row: 2/4;
     overflow: visible;
+    grid-area: image;
 }
 @media screen and (max-width: 1279px) {
     .place__image {

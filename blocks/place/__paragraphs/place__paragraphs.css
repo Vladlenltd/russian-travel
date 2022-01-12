@@ -1,6 +1,7 @@
 .place__paragraphs {
     display: flex;
     flex-direction: column;
+    grid-area: paragraphs;
 }
 @media screen and (max-width: 1279px) {
     .place__paragraphs {

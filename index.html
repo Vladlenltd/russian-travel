@@ -10,58 +10,60 @@
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/__logo.svg" alt="Логотип в виде географической карты РФ">
-      <div class="header__links">
-      <a class="header__lang-link" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
-      </div>
+      <ul class="header__links">
+      <li class="header__list-item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+      <li class="header__list-item"><a class="header__lang-link" href="#">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure class="lead__figure">
         <img class="lead__image" src="./images/coupe.jpg" alt="девушка спит на нижней полке в поезде"> 
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов 11</li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-item">Природных заповедников 105</li>
-          <li class="intro__list-item">Аэропортов 241</li>
+          <li class="intro__list-item">Часовых поясов <span class="intro__number">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__number">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__number">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/__item.png" alt="окно поезда">
-        <img class="photo-grid__item" src="./images/__item1.png" alt="снежные горы в облаках">
-        <img class="photo-grid__item" src="./images/__item2.png" alt="собака рулоне из сена">
-        <img class="photo-grid__item" src="./images/__item3.png" alt="туман в лесных горах">
-        <img class="photo-grid__item" src="./images/__item4.png" alt="колесо машины на льду">
-        <img class="photo-grid__item" src="./images/__item5.png" alt="берег озера">
-        <img class="photo-grid__item" src="./images/__item6.png" alt="скалистые горы в снегу">
-        <img class="photo-grid__item" src="./images/__item7.png" alt="дорожный знак пешеходный переход на фоне волнорезов">
-        <img class="photo-grid__item" src="./images/__item8.png" alt="каменные холмы в тумане">
-        <img class="photo-grid__item" src="./images/__item9.png" alt="гора за равниной">
-        <img class="photo-grid__item" src="./images/__item10.png" alt="холмы перед берегом">
-        <img class="photo-grid__item" src="./images/__item11.png" alt="горы в облаках">
+        <img class="photo-grid__item" src="./images/__item.jpg" alt="окно поезда">
+        <img class="photo-grid__item" src="./images/__item1.jpg" alt="снежные горы в облаках">
+        <img class="photo-grid__item" src="./images/__item2.jpg" alt="собака рулоне из сена">
+        <img class="photo-grid__item" src="./images/__item3.jpg" alt="туман в лесных горах">
+        <img class="photo-grid__item" src="./images/__item4.jpg" alt="колесо машины на льду">
+        <img class="photo-grid__item" src="./images/__item5.jpg" alt="берег озера">
+        <img class="photo-grid__item" src="./images/__item6.jpg" alt="скалистые горы в снегу">
+        <img class="photo-grid__item" src="./images/__item7.jpg" alt="дорожный знак пешеходный переход на фоне волнорезов">
+        <img class="photo-grid__item" src="./images/__item8.jpg" alt="каменные холмы в тумане">
+        <img class="photo-grid__item" src="./images/__item9.jpg" alt="гора за равниной">
+        <img class="photo-grid__item" src="./images/__item10.jpg" alt="холмы перед берегом">
+        <img class="photo-grid__item" src="./images/__item11.jpg" alt="горы в облаках">
       </section>
       <section class="places">
         <article class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="./images/kurshskay-cosa.png" alt="берег залива">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-cosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__paragraphs">
             <p class="place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
-            <p class="place__text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+            <p class="place__text">На этом Калининградская область не заканчивается.<br>Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
         </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="./images/kolskyi.png" alt="берег северного моря на фоне заснеженных скал">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -75,7 +77,7 @@
         </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="./images/altai.png" alt="ноутбук на фоне зеленых листьев">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -88,7 +90,7 @@
         </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="./images/zimnyi-baykal.png" alt="прозрачный лед с трещинами">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -102,7 +104,7 @@
         </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="./images/karelyia.png" alt="русло реки на фоне леса">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -123,11 +125,15 @@
       </section>
     </main>
   <footer class="footer">
-      <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-      <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-      <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-      <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-      <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+    <nav class="footer__container">
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+        <li class="footer__list-item"><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+        <li class="footer__list-item"><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+        <li class="footer__list-item"><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+        <li class="footer__list-item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+      </ul>
+    </nav>
       <p class="footer__copyright">&#169;2022 Евдокимов Владислав</p>
   </footer>
   </body>

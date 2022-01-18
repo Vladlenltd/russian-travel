@@ -2,15 +2,14 @@
     display: grid;
     grid-template-columns: repeat(4, 284px);
     max-width: 1184px;
-    min-height: 671px;
     gap: 16px;
     margin: 0 48px 92px;
 }
 @media screen and (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(3, 300px);
+        justify-items: stretch;
         max-width: 928px;
-        min-height: 942px;
         gap: 14px;
     }
 }
@@ -18,7 +17,6 @@
     .photo-grid {
         grid-template-columns: repeat(2, 352px);
         max-width: 720px;
-        min-height: 1664px;
         margin: 0 24px 88px;
         gap: 16px;
     }

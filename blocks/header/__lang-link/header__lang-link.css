@@ -5,10 +5,7 @@
     line-height: 26px;
     color: #ffffff;
 }
-.header__lang-link:first-of-type {
-    color:#ffffff;
-    margin-right: 18px;
-}
+
 .header__lang-link:hover {
     text-decoration: underline;
     opacity: .8;

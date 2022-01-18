@@ -1,14 +1,12 @@
 .lead__caption {
-    display: flex;
-    flex-direction: row;
     font-size: 10px;
     line-height: 14px;
     font-weight: 400;
+    letter-spacing: 1.5px;
     color: #ffffff;
-    padding: 0;
     margin: 8px 0 0;
-    align-self: flex-start;
     text-transform: uppercase;
+    
 }
 @media screen and (max-width: 1023px) {
     .lead__caption {
